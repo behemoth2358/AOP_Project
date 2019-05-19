@@ -1,0 +1,246 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680109</millis>
+  <sequence>0</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: loadData.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680211</millis>
+  <sequence>1</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: map.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680212</millis>
+  <sequence>2</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>With arguments:</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680212</millis>
+  <sequence>3</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@2fe062d3
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680215</millis>
+  <sequence>4</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: map.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680216</millis>
+  <sequence>5</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>With arguments:</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680217</millis>
+  <sequence>6</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@2fe062d3
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680483</millis>
+  <sequence>7</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.initialize called!</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680485</millis>
+  <sequence>8</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.loadData called!</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680486</millis>
+  <sequence>9</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: getToDoItems.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680487</millis>
+  <sequence>10</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: loadData.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680580</millis>
+  <sequence>11</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: map.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680581</millis>
+  <sequence>12</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>With arguments:</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680581</millis>
+  <sequence>13</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@12fdf2a0
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680583</millis>
+  <sequence>14</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>Entered method: map.
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680583</millis>
+  <sequence>15</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>With arguments:</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:40</date>
+  <millis>1558265680584</millis>
+  <sequence>16</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@12fdf2a0
+</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:43</date>
+  <millis>1558265683997</millis>
+  <sequence>17</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.itemListView_onAction called!</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:51</date>
+  <millis>1558265691897</millis>
+  <sequence>18</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.itemListView_onAction called!</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:52</date>
+  <millis>1558265692361</millis>
+  <sequence>19</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.itemListView_onAction called!</message>
+</record>
+<record>
+  <date>2019-05-19T14:34:52</date>
+  <millis>1558265692898</millis>
+  <sequence>20</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>13</thread>
+  <message>StartController.itemListView_onAction called!</message>
+</record>
+</log>
