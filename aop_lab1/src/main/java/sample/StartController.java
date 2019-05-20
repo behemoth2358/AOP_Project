@@ -11,7 +11,6 @@ import javafx.util.Callback;
 import sample.helper.LogHelper;
 import sample.model.ToDoItem;
 import sample.repository.ToDoRepository;
-
 import java.net.URL;
 import java.util.Observable;
 import java.util.Observer;

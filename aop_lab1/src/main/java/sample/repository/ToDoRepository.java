@@ -1,52 +1,23 @@
 package sample.repository;
 
 import sample.helper.LogHelper;
-import sample.manager.IDatabaseManager;
+import sample.manager.IRepository;
+import sample.manager.ToDoItemDBManager;
 import sample.model.ToDoItem;
-
-import java.sql.ResultSet;
-import java.util.ArrayList;
 import java.util.List;
 import java.util.Observable;
 
 public class ToDoRepository extends Observable {
-    private IDatabaseManager databaseManager;
+    private IRepository<ToDoItem> databaseManager;
     private List<ToDoItem> toDoItems;
 
-    public ToDoRepository(IDatabaseManager databaseManager) {
-        this.databaseManager = databaseManager;
+    public ToDoRepository(String databaseName, String username, String userPassword) {
+        this.databaseManager = new ToDoItemDBManager(databaseName,username,userPassword);
         loadData();
     }
 
     private void loadData() {
-        ResultSet rs = databaseManager.executeQuery("select * from ToDoItems");
-        toDoItems = new ArrayList<> ();
-
-        try {
-            while (rs.next()) {
-                ToDoItem entity = map(rs);
-
-                if (entity != null) {
-                    toDoItems.add(entity);
-                }
-            }
-        } catch (Exception e) {
-            LogHelper.Instance.LogError(e);
-        }
-    }
-
-    public ToDoItem map(ResultSet rs) {
-        try {
-            return new ToDoItem(
-                    rs.getInt("id"),
-                    rs.getString("val"),
-                    rs.getString("date")
-            );
-        } catch (Exception e) {
-            e.printStackTrace();
-        }
-
-        return null;
+        toDoItems = databaseManager.executeQuery("select * from ToDoItems");
     }
 
     public void add(ToDoItem i) {

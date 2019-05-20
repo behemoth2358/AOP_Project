@@ -2,245 +2,303 @@
 <!DOCTYPE log SYSTEM "logger.dtd">
 <log>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680109</millis>
+  <date>2019-05-20T20:47:54</date>
+  <millis>1558374474948</millis>
   <sequence>0</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
+  <thread>15</thread>
   <message>Entered method: loadData.
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680211</millis>
+  <date>2019-05-20T20:47:54</date>
+  <millis>1558374474957</millis>
   <sequence>1</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: map.
-</message>
+  <thread>15</thread>
+  <message>Result not yet cached</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680212</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475039</millis>
   <sequence>2</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>With arguments:</message>
+  <thread>15</thread>
+  <message>Cached result is: [2019-05-20: Ceva]</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680212</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475040</millis>
   <sequence>3</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@2fe062d3
+  <thread>15</thread>
+  <message>Exited method:loadData
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680215</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475202</millis>
   <sequence>4</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: map.
-</message>
+  <thread>15</thread>
+  <message>StartController.initialize called!</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680216</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475205</millis>
   <sequence>5</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>With arguments:</message>
+  <thread>15</thread>
+  <message>StartController.loadData called!</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680217</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475206</millis>
   <sequence>6</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@2fe062d3
+  <thread>15</thread>
+  <message>Entered method: getToDoItems.
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680483</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475207</millis>
   <sequence>7</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.initialize called!</message>
+  <thread>15</thread>
+  <message>Entered method: loadData.
+</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680485</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475207</millis>
   <sequence>8</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.loadData called!</message>
+  <thread>15</thread>
+  <message>Returning cached result</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680486</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475207</millis>
   <sequence>9</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: getToDoItems.
-</message>
+  <thread>15</thread>
+  <message>Cached result is: [2019-05-20: Ceva]</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680487</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475208</millis>
   <sequence>10</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: loadData.
+  <thread>15</thread>
+  <message>Exited method:loadData
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680580</millis>
+  <date>2019-05-20T20:47:55</date>
+  <millis>1558374475209</millis>
   <sequence>11</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: map.
+  <thread>15</thread>
+  <message>Exited method:getToDoItems
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680581</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479674</millis>
   <sequence>12</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>With arguments:</message>
+  <thread>15</thread>
+  <message>StartController.loadData called!</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680581</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479674</millis>
   <sequence>13</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@12fdf2a0
+  <thread>15</thread>
+  <message>Entered method: getToDoItems.
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680583</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479675</millis>
   <sequence>14</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>Entered method: map.
+  <thread>15</thread>
+  <message>Entered method: loadData.
 </message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680583</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479675</millis>
   <sequence>15</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>With arguments:</message>
+  <thread>15</thread>
+  <message>Returning cached result</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:40</date>
-  <millis>1558265680584</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479676</millis>
   <sequence>16</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>	PgResultSet -&gt; org.postgresql.jdbc.PgResultSet@12fdf2a0
-</message>
+  <thread>15</thread>
+  <message>Cached result is: [2019-05-20: Ceva]</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:43</date>
-  <millis>1558265683997</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479677</millis>
   <sequence>17</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.itemListView_onAction called!</message>
+  <thread>15</thread>
+  <message>Exited method:loadData
+</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:51</date>
-  <millis>1558265691897</millis>
+  <date>2019-05-20T20:47:59</date>
+  <millis>1558374479677</millis>
   <sequence>18</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.itemListView_onAction called!</message>
+  <thread>15</thread>
+  <message>Exited method:getToDoItems
+</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:52</date>
-  <millis>1558265692361</millis>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482967</millis>
   <sequence>19</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.itemListView_onAction called!</message>
+  <thread>15</thread>
+  <message>StartController.loadData called!</message>
 </record>
 <record>
-  <date>2019-05-19T14:34:52</date>
-  <millis>1558265692898</millis>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482968</millis>
   <sequence>20</sequence>
   <logger>AOP</logger>
   <level>INFO</level>
   <class>sample.helper.LogHelper</class>
   <method>LogInfo</method>
-  <thread>13</thread>
-  <message>StartController.itemListView_onAction called!</message>
+  <thread>15</thread>
+  <message>Entered method: getToDoItems.
+</message>
+</record>
+<record>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482969</millis>
+  <sequence>21</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>15</thread>
+  <message>Entered method: loadData.
+</message>
+</record>
+<record>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482969</millis>
+  <sequence>22</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>15</thread>
+  <message>Returning cached result</message>
+</record>
+<record>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482969</millis>
+  <sequence>23</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>15</thread>
+  <message>Cached result is: [2019-05-20: Ceva]</message>
+</record>
+<record>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482970</millis>
+  <sequence>24</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>15</thread>
+  <message>Exited method:loadData
+</message>
+</record>
+<record>
+  <date>2019-05-20T20:48:02</date>
+  <millis>1558374482970</millis>
+  <sequence>25</sequence>
+  <logger>AOP</logger>
+  <level>INFO</level>
+  <class>sample.helper.LogHelper</class>
+  <method>LogInfo</method>
+  <thread>15</thread>
+  <message>Exited method:getToDoItems
+</message>
 </record>
 </log>

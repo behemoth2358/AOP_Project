@@ -5,8 +5,6 @@ import javafx.fxml.FXMLLoader;
 import javafx.scene.Parent;
 import javafx.scene.Scene;
 import javafx.stage.Stage;
-import sample.manager.IDatabaseManager;
-import sample.manager.PostgreSQLDatabaseManager;
 import sample.repository.ToDoRepository;
 
 public class Main extends Application {
@@ -14,8 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/start.fxml"));
-        IDatabaseManager databaseManager = new PostgreSQLDatabaseManager("xpyacxfd", "xpyacxfd", "RDiHLKNCYmZ7yOKOPY3yZIBAf1ueqU6u");
-        ToDoRepository repository = new ToDoRepository(databaseManager);
+        ToDoRepository repository = new ToDoRepository("xpyacxfd", "xpyacxfd", "RDiHLKNCYmZ7yOKOPY3yZIBAf1ueqU6u");
         StartController controller = new StartController(repository);
         loader.setController(controller);
         Parent root = loader.load();
