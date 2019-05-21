@@ -24,7 +24,7 @@ public aspect ObserverAspect extends Observable {
 
     void Notify() {
         if (ContainerHelper.repositoryInstance != null) {
-            LogHelper.Instance.LogError("AICIIIIIIIIII!");
+            LogHelper.Instance.LogError("NOTIFYING HEREEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEEE!");
             ContainerHelper.repositoryInstance.Notify();
         }
     }
