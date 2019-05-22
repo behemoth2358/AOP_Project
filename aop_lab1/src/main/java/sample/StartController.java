@@ -8,6 +8,8 @@ import javafx.scene.control.ListCell;
 import javafx.scene.control.ListView;
 import javafx.scene.control.TextArea;
 import javafx.util.Callback;
+import sample.aspect.ObserverAspect;
+import sample.helper.ContainerHelper;
 import sample.helper.LogHelper;
 import sample.model.ToDoItem;
 import sample.repository.ToDoRepository;
@@ -20,9 +22,8 @@ public class StartController implements Observer, Initializable {
     private ToDoRepository repository;
     private ToDoItem selectedToDoItem;
 
-    public StartController(ToDoRepository repository) {
-        this.repository = repository;
-
+    public StartController() {
+        this.repository = ContainerHelper.repositoryInstance;
         this.repository.addObserver(this);
     }
 
@@ -40,7 +41,7 @@ public class StartController implements Observer, Initializable {
     }
 
     @FXML public void saveBtn_onAction() {
-        LogHelper.Instance.LogInfo("StartController.saveBtn_onAction called!");
+//        LogHelper.Instance.LogInfo("StartController.saveBtn_onAction called!");
 
         if (selectedToDoItem.getId() == null) {
             repository.add(new ToDoItem(valueTextArea.getText()));
@@ -52,7 +53,7 @@ public class StartController implements Observer, Initializable {
     }
 
     @FXML public void deleteBtn_onAction() {
-        LogHelper.Instance.LogInfo("StartController.deleteBtn_onAction called!");
+//        LogHelper.Instance.LogInfo("StartController.deleteBtn_onAction called!");
 
         repository.delete(selectedToDoItem.getId());
 
@@ -61,14 +62,14 @@ public class StartController implements Observer, Initializable {
     }
 
     @FXML public void newBtn_onAction() {
-        LogHelper.Instance.LogInfo("StartController.newBtn_onAction called!");
+//        LogHelper.Instance.LogInfo("StartController.newBtn_onAction called!");
 
         clearSelection();
         selectedToDoItem = new ToDoItem();
     }
 
     @FXML public void itemsListView_onAction() {
-        LogHelper.Instance.LogInfo("StartController.itemListView_onAction called!");
+//        LogHelper.Instance.LogInfo("StartController.itemListView_onAction called!");
 
         selectedToDoItem = itemsListView.getSelectionModel().getSelectedItem();
 
@@ -80,7 +81,7 @@ public class StartController implements Observer, Initializable {
 
     @Override
     public void update(Observable o, Object arg) {
-        LogHelper.Instance.LogInfo("StartController.update called!");
+//        LogHelper.Instance.LogInfo("StartController.update called!");
 
         loadData();
     }
@@ -93,13 +94,13 @@ public class StartController implements Observer, Initializable {
     }
 
     private void loadData() {
-        LogHelper.Instance.LogInfo("StartController.loadData called!");
+//        LogHelper.Instance.LogInfo("StartController.loadData called!");
         itemsListView.setItems(FXCollections.observableList(repository.getToDoItems()));
     }
 
     @Override
     public void initialize(URL location, ResourceBundle resources) {
-        LogHelper.Instance.LogInfo("StartController.initialize called!");
+//        LogHelper.Instance.LogInfo("StartController.initialize called!");
         itemsListView.setCellFactory(new Callback<ListView<ToDoItem>, ListCell<ToDoItem>>(){
             @Override
             public ListCell<ToDoItem> call(ListView<ToDoItem> p) {

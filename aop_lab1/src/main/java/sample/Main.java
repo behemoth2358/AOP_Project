@@ -12,8 +12,7 @@ public class Main extends Application {
     @Override
     public void start(Stage primaryStage) throws Exception{
         FXMLLoader loader = new FXMLLoader(getClass().getResource("/start.fxml"));
-        ToDoRepository repository = new ToDoRepository("xpyacxfd", "xpyacxfd", "RDiHLKNCYmZ7yOKOPY3yZIBAf1ueqU6u");
-        StartController controller = new StartController(repository);
+        StartController controller = new StartController();
         loader.setController(controller);
         Parent root = loader.load();
         primaryStage.setTitle("To Do List");

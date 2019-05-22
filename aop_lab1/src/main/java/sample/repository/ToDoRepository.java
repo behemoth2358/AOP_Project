@@ -1,5 +1,6 @@
 package sample.repository;
 
+import sample.helper.ContainerHelper;
 import sample.helper.LogHelper;
 import sample.manager.IRepository;
 import sample.manager.ToDoItemDBManager;
@@ -11,8 +12,8 @@ public class ToDoRepository extends Observable {
     private IRepository<ToDoItem> databaseManager;
     private List<ToDoItem> toDoItems;
 
-    public ToDoRepository(String databaseName, String username, String userPassword) {
-        this.databaseManager = new ToDoItemDBManager(databaseName,username,userPassword);
+    public ToDoRepository() {
+        this.databaseManager = ContainerHelper.itemDBManagerInstance;
         loadData();
     }
 
@@ -22,17 +23,17 @@ public class ToDoRepository extends Observable {
 
     public void add(ToDoItem i) {
         databaseManager.executeUpdate("insert into ToDoItems(val, date) values ('"+ i.getValue() +"', '" + i.getDate() +"')");
-        Notify();
+//        Notify();
     }
 
     public void update(ToDoItem i) {
         databaseManager.executeUpdate("update ToDoItems set val = '" + i.getValue() + "' where id = " + i.getId().toString());
-        Notify();
+//        Notify();
     }
 
     public void delete(int id) {
         databaseManager.executeUpdate("delete from ToDoItems where id = " + id);
-        Notify();
+//        Notify();
     }
 
     public List<ToDoItem> getToDoItems() {
@@ -40,7 +41,7 @@ public class ToDoRepository extends Observable {
         return toDoItems;
     }
 
-    private void Notify() {
+    public void Notify() {
         LogHelper.Instance.LogInfo("ToDoRepository.Notify() called!");
         setChanged();
         notifyObservers();
